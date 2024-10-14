@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --tela-cheia-parte-superior-altura: 75%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 99vw;
+  height: 98vh;
+}
+
+#root * {
+  /*background-color: #242424;*/
+  color: #ababab;
+  border: 2px dotted gold;
+}
+
+.tela-cheia {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tela-cheia-parte-superior {
+  height: var(--tela-cheia-parte-superior-altura);
+  width: 100%;
+  display: flex;
+}
+.tela-cheia-parte-inferior {
+  height: calc(100% - var(--tela-cheia-parte-superior-altura));
+  width: 100%;
+}
+
+.tela-cheia-parte-superior-esquerda {
+  width: 25%;
+}
+/*Trecho só da tela cheia superior direita*/
+
+.tela-cheia-parte-superior-direita {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.tresElementosSuperiores {
+  display: flex;
+  height: 100%;
+}
+
+.RelogioDigital {
+  height: 100%;
+  width: 25%;
+}
+
+.N_ProximaRodada {
+  height: 100%;
+  width: 25%;
+}
+
+.ValorAcumulado {
+  height: 100%;
+  width: 50%;
+}
+
+/*Trecho Parte Duperior Central - Lado esquerdo*/
+
+.doisElementosSuperioresCentro {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.ladoA {
+  width: 50%;
+}
+.ladoB {
+  width: 50%;
+}
+.LadoATopo {
+  height: 20%;
+}
+.LadoACorpo {
+  height: 80%;
+  display: flex;
+}
+.LadoACorpoEsquerda {
+  width: 50%;
+}
+.LadoACorpoDireita {
+  width: 50%;
+}
+/*Parte da tela cheia superior esquerda*/
+.tela-cheia-parte-superior-esquerda {
+  display: flex;
+  flex-direction: column;
+}
+.PosicaoAcima {
+  height: 60%;
+}
+.PosicaoAbaixo {
+  height: 40%;
+}
