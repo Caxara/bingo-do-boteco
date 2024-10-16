@@ -1,59 +1,40 @@
+import "./styles.css";
 export function MostradorDePremios() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "stretch",
-        height: "100%",
-      }}
-    >
-      <h1
-        style={{
-          flexGrow: 1,
-          fontSize: "25px",
-          textAlign: "center",
-          color: "white",
-          background: "var(--light-purple)",
-          borderTopLeftRadius: "10px",
-          borderTopRightRadius: "10px",
-        }}
-      >
-        RODADA Nº
-      </h1>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      ></div>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      >
-        Deu certo?
+    <div className="MostradorDePremios">
+      <h1>RODADA Nº</h1>
+      <div className="VisorNumeroRodada">
+        <div className="VisorNumeroRodadaNumero">
+          <p>77449</p>
+        </div>
       </div>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      >
-        Deu certo?
+      <div className="ValorDaCartela">
+        <p>VALOR</p>
+        <div className="ValorDaCartelaNumero">
+          <p>5,00</p>
+        </div>
       </div>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      >
-        Deu certo?
+      <div className="Premio">
+        <div className="PremioTexto">
+          <p className="Medalha">1°</p>
+          <p>QUADRA</p>
+        </div>
+        <div className="PremioValor">200</div>
       </div>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      >
-        Deu certo?
+      <div className="Premio">
+        <div className="PremioTexto">
+          <p className="Medalha">2°</p>
+          <p>QUINA</p>
+        </div>
+        <div className="PremioValor">300</div>
+      </div>
+      <div className="Premio">
+        <div className="PremioTexto">
+          <p className="Medalha">3°</p>
+          <p>KENO</p>
+        </div>
+        <div className="PremioValor">500</div>
       </div>
     </div>
-  )
+  );
 }

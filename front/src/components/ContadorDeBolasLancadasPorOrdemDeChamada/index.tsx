@@ -1,4 +1,4 @@
-const listade100numeros = Array.from({ length: 100 }, (_, i) => i + 1)
+const listade100numeros = Array.from({ length: 100 }, (_, i) => i + 1);
 
 export function ContadorDeBolasLancadasPorOrdemDeChamada(): JSX.Element {
   return (
@@ -21,12 +21,12 @@ export function ContadorDeBolasLancadasPorOrdemDeChamada(): JSX.Element {
             justifyContent: "center",
           }}
           onClick={() => {
-            alert(`button ${numero} clicked`)
+            alert(`button ${numero} clicked`);
           }}
         >
-          {numero}
+          <p style={{ opacity: 0 }}>{numero}</p>
         </div>
       ))}
     </div>
-  )
+  );
 }

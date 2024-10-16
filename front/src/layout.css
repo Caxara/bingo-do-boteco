@@ -27,8 +27,8 @@
 
 #root * {
   /*background-color: #242424;*/
-  color: #ababab;
-  border: 2px dotted gold;
+  /*color: #ababab;*/
+  border: 2px dotted rgb(88, 77, 2);
 }
 
 .tela-cheia {
