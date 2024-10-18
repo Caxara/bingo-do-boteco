@@ -1,8 +1,9 @@
+import { TituloDeQuadrante } from "../TituloDeQuadrante";
 import "./styles.css";
 export function MostradorDePremios() {
   return (
     <div className="MostradorDePremios">
-      <h1>RODADA Nº</h1>
+      <TituloDeQuadrante titulo="RODADA N°" />
       <div className="VisorNumeroRodada">
         <div className="VisorNumeroRodadaNumero">
           <p>77449</p>

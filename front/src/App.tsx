@@ -1,5 +1,6 @@
-import { ContadorDeBolasLancadasPorOrdemDeChamada } from "./components/ContadorDeBolasLancadasPorOrdemDeChamada"
-import { MostradorDePremios } from "./components/MostradorDePremios"
+import { ContadorDeBolasLancadasPorOrdemDeChamada } from "./components/ContadorDeBolasLancadasPorOrdemDeChamada";
+import { MostradorDePremios } from "./components/MostradorDePremios";
+import { BolaSorteada } from "./components/BolaSorteada";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
           <div className="PosicaoAcima">
             <MostradorDePremios />
           </div>
-          <div className="PosicaoAbaixo"></div>
+          <div className="PosicaoAbaixo">
+            <BolaSorteada />
+          </div>
         </div>
         <div className="tela-cheia-parte-superior-direita">
           <div className="tresElementosSuperiores">
@@ -33,7 +36,7 @@ function App() {
         <ContadorDeBolasLancadasPorOrdemDeChamada />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
