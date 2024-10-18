@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--dark-petroleumblue);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 2px; /*VERIFICAR ISSO DEPOIS - É ASSIM MESMO QUE FAZ?*/
 }
 
 #root {
@@ -28,7 +28,7 @@
 #root * {
   /*background-color: #242424;*/
   /*color: #ababab;*/
-  border: 1px dotted rgb(88, 77, 2);
+  /*border: 1px dotted rgb(88, 77, 2);*/
 }
 
 .tela-cheia {

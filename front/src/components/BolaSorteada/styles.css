@@ -10,6 +10,7 @@
   height: 100%;
   padding: 10px;
   font-size: 12px;
+  box-shadow: -2px -2px 3px var(--dark-black);
 }
 
 .ContadorBolaCantada {
@@ -20,12 +21,17 @@
 }
 
 .ContadorBolaCantadaInside {
+  background-color: var(--dark-black);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 30%;
   font-size: 20px;
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);
+  border-radius: 5px;
+  border-top: 1px solid var(--dark-petroleumblue);
+  border-left: 1px solid var(--dark-petroleumblue);
 }
 
 .NumeradorBolaCantada {
@@ -40,20 +46,21 @@
   justify-content: center;
   align-items: center;
   border: 10px solid var(--light-green) !important;
-  border-radius: 50%;
+  border-radius: 50px;
   width: 50%;
   height: 50%;
-  box-shadow: 2px 2px var(--dark-black);
+  box-shadow: -1px -1px 1px var(--dark-grysdepayne);
 }
 .NumeroDaBolaCantadaInside {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 50px;
   background-color: var(--light-ardosia);
-  color: var(--dark-black);
-  border-radius: 50%;
-  border: 3px solid var(--dark-black);
+  color: var(--dark-green);
+  border-radius: 50px;
+  /*border: 1px solid var(--dark-grysdepayne);*/
   width: 100%;
   height: 100%;
-  /*box-shadow: -1px -1px var(--dark-black);*/
+  box-shadow: -1px -1px 1px var(--dark-black);
 }

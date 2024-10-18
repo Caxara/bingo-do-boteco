@@ -18,9 +18,6 @@ function App() {
         <div className="tela-cheia-parte-superior-direita">
           <div className="tresElementosSuperiores">
             <InformacoesElementosSuperiores />
-            {/* <div className="RelogioDigital"></div>
-            <div className="N_ProximaRodada"></div>
-            <div className="ValorAcumulado"></div> */}
           </div>
           <div className="doisElementosSuperioresCentro">
             <div className="ladoA">
