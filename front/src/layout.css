@@ -61,22 +61,7 @@
 }
 .tresElementosSuperiores {
   display: flex;
-  height: 100%;
-}
-
-.RelogioDigital {
-  height: 100%;
-  width: 25%;
-}
-
-.N_ProximaRodada {
-  height: 100%;
-  width: 25%;
-}
-
-.ValorAcumulado {
-  height: 100%;
-  width: 50%;
+  height: 30%;
 }
 
 /*Trecho Parte Duperior Central - Lado esquerdo*/

@@ -1,6 +1,7 @@
 import { ContadorDeBolasLancadasPorOrdemDeChamada } from "./components/ContadorDeBolasLancadasPorOrdemDeChamada";
 import { MostradorDePremios } from "./components/MostradorDePremios";
 import { BolaSorteada } from "./components/BolaSorteada";
+import { InformacoesElementosSuperiores } from "./components/InformacoesElementosSuperiores";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
         </div>
         <div className="tela-cheia-parte-superior-direita">
           <div className="tresElementosSuperiores">
-            <div className="RelogioDigital"></div>
+            <InformacoesElementosSuperiores />
+            {/* <div className="RelogioDigital"></div>
             <div className="N_ProximaRodada"></div>
-            <div className="ValorAcumulado"></div>
+            <div className="ValorAcumulado"></div> */}
           </div>
           <div className="doisElementosSuperioresCentro">
             <div className="ladoA">
