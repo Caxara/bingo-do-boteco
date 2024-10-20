@@ -1,0 +1,33 @@
+.CartelasCompletandoCorpo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  /*border: 1px solid white;*/
+  box-shadow: -2px -2px 5px var(--dark-grysdepayne);
+  /*padding-right: 5px;*/
+}
+
+.CartelasQuaseCompletas {
+  height: 100%;
+  width: 90%;
+  background-color: var(--dark-purple);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.CartelasQuaseCompletas p {
+  font-size: 16px;
+}
+
+.NumerosAnotados {
+  height: 50%;
+  border-radius: 5px;
+  background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 5px var(--dark-grysdepayne);
+  padding: 10px;
+}

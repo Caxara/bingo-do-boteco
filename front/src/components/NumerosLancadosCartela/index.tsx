@@ -1,13 +1,16 @@
 const listade100numeros = Array.from({ length: 100 }, (_, i) => i + 1);
 
-export function ContadorDeBolasLancadasPorOrdemDeChamada(): JSX.Element {
+export function NumerosLancadosCartela(): JSX.Element {
   return (
     <div
       style={{
+        width: "100%",
+        height: "100%",
         display: "flex",
         flexWrap: "wrap",
         gap: "5px",
-        boxShadow: "-2px -2px 5px var(--dark-grysdepayne)",
+        backgroundColor: "var(--light-petroleumblue)",
+        boxShadow: "-2px -2px 3px var(--dark-grysdepayne)",
       }}
     >
       {listade100numeros.map((numero) => (
@@ -15,9 +18,9 @@ export function ContadorDeBolasLancadasPorOrdemDeChamada(): JSX.Element {
           key={numero}
           style={{
             border: "1px solid lightblue",
-            backgroundColor: "var(--light-petroleumblue)",
+            backgroundColor: "var(--light-blue)",
             boxShadow: "2px 2px 5px var(--dark-black)",
-            borderRadius: "50%",
+            borderRadius: "5px",
             width: "30px",
             display: "flex",
             justifyContent: "center",

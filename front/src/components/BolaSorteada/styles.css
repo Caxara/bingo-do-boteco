@@ -5,6 +5,7 @@
 }
 
 .CorpoBolaCantada {
+  background-color: var(--light-petroleumblue);
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -18,10 +19,12 @@
   flex-direction: column;
   justify-content: end;
   width: 45%;
+  overflow: auto;
 }
 
 .ContadorBolaCantadaInside {
   background-color: var(--dark-black);
+  color: var(--light-orange);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -3,6 +3,12 @@
   flex-direction: column;
   justify-content: stretch;
   height: 100%;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 10px;
+  background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);
 }
 
 .MostradorDePremios div {

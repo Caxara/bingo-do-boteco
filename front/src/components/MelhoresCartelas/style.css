@@ -1,0 +1,52 @@
+.LadoA {
+  height: 100%;
+  width: 100%;
+}
+.MelhoresCartelasGeral {
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-top: 0;
+  /*background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);*/
+}
+
+.MelhoresCartelasCorpoNumeros {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.NumerosMelhoresCartelas {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  height: 20%;
+  background-color: var(--light-bluelevel1);
+}
+
+.CoresMelhoresCartelas {
+  background-color: var(--light-bluelevel2);
+}
+
+.BolaFaltante {
+  width: 10%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-blue);
+  border-radius: 2px;
+}
+
+.SituacaoDoJogador {
+  width: 10%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-blue);
+  border-radius: 2px;
+}

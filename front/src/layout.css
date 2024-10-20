@@ -78,7 +78,7 @@
   width: 50%;
 }
 .LadoATopo {
-  height: 20%;
+  height: 10%;
 }
 .LadoACorpo {
   height: 80%;
@@ -86,9 +86,11 @@
 }
 .LadoACorpoEsquerda {
   width: 50%;
+  height: 100%;
 }
 .LadoACorpoDireita {
   width: 50%;
+  height: 100%;
 }
 /*Parte da tela cheia superior esquerda*/
 .tela-cheia-parte-superior-esquerda {

@@ -1,4 +1,6 @@
 .BlocoGeral {
+  background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -13,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 40%;
+  height: 60%;
   width: 40%;
   padding-bottom: 10px;
   background-color: var(--light-blue);
@@ -33,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 40%;
+  height: 60%;
   width: 40%;
   padding-bottom: 10px;
   font-size: 12px;
@@ -48,21 +50,28 @@
   box-shadow: -2px -2px 3px var(--dark-black);
 }
 
+/*TRECHO DO QUADRANTE "VALOR ACUMULADO" */
+
 .ValorAcumulado {
-  height: 55%;
+  height: 70%;
   width: 60%;
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
   font-size: 12px;
   border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
   background-color: var(--light-blue);
 }
 
 .BlocoDoMostradorELimitador {
   display: flex;
   height: 100%;
-  padding: 5px 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   gap: 10px;
 }
 
@@ -70,11 +79,11 @@
   width: 60%;
   height: 80%;
   background-color: var(--light-gray);
-  box-shadow: 2px -2px 3px var(--dark-black);
+  box-shadow: -2px -2px 3px var(--dark-black);
 }
 .LimitadorDeBolas {
   width: 40%;
   height: 80%;
   background-color: var(--light-gray);
-  box-shadow: 2px -2px 3px var(--dark-black);
+  box-shadow: -2px -2px 3px var(--dark-black);
 }
