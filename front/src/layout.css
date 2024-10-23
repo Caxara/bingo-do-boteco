@@ -81,12 +81,13 @@
   height: 10%;
 }
 .LadoACorpo {
-  height: 80%;
+  height: 90%;
   display: flex;
 }
 .LadoACorpoEsquerda {
   width: 50%;
   height: 100%;
+  overflow: hidden;
 }
 .LadoACorpoDireita {
   width: 50%;
