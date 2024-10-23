@@ -1,4 +1,22 @@
 .NumerosLancadosCartelaGrid {
-  width: 100%;
-  border: 13x solid orange;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 12px;
+  background-color: var(--light-petroleumblue);
+  box-shadow: -2px -2px 3px var(--dark-grysdepayne);
+  padding: 5px;
+  /* border: 2px solid gold; */
+}
+
+.NumerosLancadosCartelaGrid > div {
+  /* border: 1px solid lightblue; */
+  background-color: var(--light-blue);
+  box-shadow: 2px 2px 5px var(--dark-black);
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
