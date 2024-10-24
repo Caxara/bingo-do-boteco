@@ -26,9 +26,22 @@
 }
 
 .NumerosAnotados {
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
   height: 50%;
   border-radius: 5px;
   background-color: var(--light-petroleumblue);
   box-shadow: -2px -2px 5px var(--dark-grysdepayne);
-  padding: 10px;
+  padding: 5px;
+}
+
+.NumerosAnotados > div {
+  /*background-color: var(--light-petroleumblue);*/
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

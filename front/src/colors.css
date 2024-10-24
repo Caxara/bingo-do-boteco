@@ -1,19 +1,28 @@
 :root {
-  --light-orange: #eb663f;
-  --dark-purple: #610345;
-  --light-blue: #0976a6;
-  --light-bluesea: #2bc1c8;
-  --light-yellow: #edd9a3;
+  --light-orange: #e6a04ad0; /*--light-orange: #eb663f;*/
+  --dark-purple: #880460b2;
+  --light-blue: #0977a6d8;
+  --light-bluesea: #2bc0c8ce;
+  --light-yellow: #edd9a3d5;
   --dark-yellow: #ffbe0b;
-  --light-ardosia: #eaeace; /*#fff5ff*/
-  --light-green: #8a9500;
+  --light-ardosia: #c2e4de; /*#fff5ff*/
+  --light-green: #9c2a27;
   --dark-green: #113e05;
-  --light-gray: #708090; /*#ccdce0*/
+  --light-gray: #708090bd; /*#ccdce0*/
   --dark-black: #0f172a;
-  --dark-petroleumblue: #02404b;
-  --light-petroleumblue: #034d5a;
-  --light-ocre: #cb8d3d;
-  --dark-grysdepayne: #092a2f;
-  --light-bluelevel1: #5dc0dc;
-  --light-bluelevel2: #78d0e5;
+  --dark-petroleumblue: #02404bf3;
+  /*--dark-petroleumblue: #02404b;*/
+  --light-petroleumblue: #034d5ad7;
+  --light-ocre: #b2612d; /*--light-ocre: #cb8d3dd8;*/
+  --dark-grysdepayne: #092a2fd7;
+  --light-bluelevel1: #88e3d8da;
+  --light-bluelevel2: #78cfe5cc;
+
+  /*Paleta de cores "Colagem de cores - https://www.design-seeds.com/2024/07/color-collage.html */
+  --light-whiteOrNot: #dde0b6;
+  --light-orangeOrNot: #e6a04a;
+  --light-petroleumOrNot: #2c4044;
+  --light-blueOrNot: #2c868e;
+  --light-sumerBlueOrNot: #88e3d9;
+  --light-lightBlueOrNot: #c2e4de;
 }
